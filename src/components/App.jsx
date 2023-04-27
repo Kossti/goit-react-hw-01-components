@@ -6,7 +6,7 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        height: '100%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -22,8 +22,8 @@ export const App = () => {
       tag={user.tag}
       location={user.location}
       stats={user.stats}
-    />
-      React homework template
+      />
+      
     </div>
   );
 };
