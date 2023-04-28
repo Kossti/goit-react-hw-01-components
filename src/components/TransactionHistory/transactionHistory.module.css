@@ -1,0 +1,32 @@
+
+.transactionhHistory {
+    width: 480px;
+    margin: 30px 0 30px;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 5px 5px 12px 5px #6c6e7191;
+    border-radius: 2px;
+    background-color: #d1d9e358;
+}
+
+.tableHead {
+    background-color: #35b5ecc8;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+.tableTitle {
+padding: 15px 15px;
+}
+
+.tableRow:nth-of-type(even) {
+    background-color: #d1d9e358;
+    text-align: center;
+}
+
+.tableData {
+padding: 12px 15px;
+text-align: center;
+color: gray;
+}

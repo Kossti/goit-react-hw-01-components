@@ -39,11 +39,13 @@ li {
 }
 
 .stats {
+
     padding: 10px;
     margin: 0px;
     display: flex;
     justify-content: space-around;
     background-color: rgba(226, 227, 227, 0.738);
+    border-radius: 6px;
 }
 
 .statsItem {
@@ -53,6 +55,8 @@ li {
     width: 100%;
     border-color: black;
     border: 2px;
+
+    
 }
 
 .statsItemLabel {
@@ -60,6 +64,8 @@ li {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 10px;
+    
+    
 
 }
 
@@ -67,4 +73,5 @@ li {
     font-size: 16px;
     font-weight: 600;
     color: rgb(17, 17, 17); 
+    
 }
